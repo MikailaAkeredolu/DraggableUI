@@ -1,0 +1,52 @@
+	body{
+	background-color: #fff;
+	}
+	#wrapper{
+		width: 100%;
+	}
+	#sidebar{
+		float: left;
+		background-color: #e5e5e5;
+		width: 20%;
+	}
+	
+	#containment-wrapper { 
+		width: 75%; 
+		height: 1000px;
+		border:2px solid #ccc; 
+		padding: 10px;
+		float: right;
+	} 
+
+	.draggable {
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		width: 20%;
+		padding: 0.5em;
+		border: solid 1px #e5e5e5; 
+		display: inline-block;
+		position: absolute;
+		/* background-color: #e5e5e5; */
+	}
+
+	.draghr{
+		margin: 3px -8px 3px;
+	}
+	/* .top{
+		text-align: center;
+		margin: 0 auto;
+		font-weight: bold;
+	} */
+
+	#create_block{
+		color: black;
+	}
+
+	#create_interface{
+		color: blue;
+	}
+
+	.sidebutton{
+		margin: 0 auto;
+		color: red;
+	}
+
