@@ -4,6 +4,9 @@
 	#wrapper{
 		width: 100%;
 	}
+	h3{
+		text-align: center;
+	}
 	#sidebar{
 		float: left;
 		background-color: #e5e5e5;
@@ -24,25 +27,36 @@
 		padding: 0.5em;
 		border: solid 1px #e5e5e5; 
 		display: inline-block;
-		position: absolute;
+		/* position: absolute;  */
 		/* background-color: #e5e5e5; */
 	}
 
 	.draghr{
 		margin: 3px -8px 3px;
 	}
-	/* .top{
+	.top{
 		text-align: center;
 		margin: 0 auto;
 		font-weight: bold;
-	} */
-
-	#create_block{
-		color: black;
 	}
 
-	#create_interface{
+	.createClass{
+		color: black;
+		padding: 20px;
+		border: 2px solid black;
+		margin: 0 auto;
+	}
+
+	.createInterface{
 		color: blue;
+		padding: 20px;
+		border: 2px solid black;
+	}
+
+	.createObject{
+		color: green;
+		padding: 20px;
+		border: 2px solid black;
 	}
 
 	.sidebutton{
