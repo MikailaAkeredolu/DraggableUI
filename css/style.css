@@ -7,6 +7,11 @@
 	h3{
 		text-align: center;
 	}
+
+	.mainbox{
+		border:4px solid #ccc;
+		background-color: yellow; 
+	}
 	#sidebar{
 		float: left;
 		background-color: #e5e5e5;
@@ -44,22 +49,30 @@
 		color: black;
 		padding: 20px;
 		border: 2px solid black;
+		width: 80%;
 	}
 
 	.createInterface{
 		color: blue;
 		padding: 20px;
 		border: 2px solid black;
+		width: 80%;
 	}
 
 	.createObject{
 		color: green;
 		padding: 20px;
 		border: 2px solid black;
+		width: 80%;
 	}
 
 	.sidebutton{
 		margin: 0 auto;
 		color: red;
+	}
+
+	.innerbutton{
+		position: relative;
+		color:yellow;
 	}
 
